@@ -1,0 +1,74 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.logo{
+	width: 150px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+    }
+}
+.panel{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+header{
+	background-color: #fff;
+	box-shadow: 1px 1px 1px rgba(#000, 0.2);
+	margin-bottom: 15px;
+}
+
+.display-flex{
+	display: flex;
+}
+.flex-xs-1{
+	flex: 1 1 0;
+}
+.flex-xs-2{
+	flex: 2 2 0;
+}
+
+.bb-xs-1{
+	border-bottom: 1px solid #ccc;
+}
+.bt-xs-1{
+	border-top: 1px solid #ccc;
+}
+.br-xs-1{
+	border-right: 1px solid #ccc;
+}
+.pt-xs-3{
+	padding-top: 15px;
+}
+.pb-xs-3{
+	padding-bottom: 15px;
+}
+.pr-xs-3{
+	padding-right: 15px;
+}
+.pl-xs-3{
+	padding-left: 15px;
+}
+.mt-xs-1{
+	margin-top: 5px;
+}
+.mb-xs-1{
+	margin-bottom: 5px;
+}
+.mt-xs-3{
+	margin-top: 15px;	
+}
+.width-full{
+	width: 100%;
+}
