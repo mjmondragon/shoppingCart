@@ -12,12 +12,9 @@ use App\Model\ShoppingCart;
  */
 class ShoppingCartController extends Controller
 {
-    public function index(Request $request, ShoppingCartRepositoryInterface $repository)
+    public function index(Request $request)
     {
-        $session = $request->session()->getId();
-        $shoppingCart = $repository->findBySession($session);
-        $products = [];
-        return view('welcome', ['shoppingCart' => $shoppingCart, 'products' => $products]);
+        return view('welcome');
     }
 
     public function get(Request $request, ShoppingCartRepositoryInterface $repository)
